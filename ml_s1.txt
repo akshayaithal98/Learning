@@ -1,0 +1,94 @@
+Types of learning algorithms:
+1.supervised learning:give features as well as labels for model to learn.
+				ex:give features and provide names of fruits
+	Regression(dependent variable y is continuos).
+	Classification(Y is discrete).Ex:spam or not
+	cluster analysis
+	etc
+2. Unsupervised learning
+3. Reinforcement learning
+
+Data needs to be divided into 2 parts:
+Train data set- train your model 
+Test data set- check it using test data and understand
+		 its ability /performance
+
+then calculate performance of model
+
+Take data
+data exploration
+Preprocess
+Split into train/test
+modelling
+test the model
+measure the performance metrics
+
+Supervised learning algorithms:
+linear regression(regression)
+and all below for classification:
+logistics regression
+naive bayes classification
+knn
+decision tree
+
+Unsupervised learning:no labels will be given.only features are given
+K-means clustering
+hierarchical clustering
+density based clustering
+
+reinforcement:based on reward and punishment. just like traing dog.
+ 
+
+if percentage of null values is less then dont drop
+handling missing values:
+deleting of rows
+mean/median/mode
+forward and backward filling
+imputations based like seeing its neighbours.ex:knn impuation
+
+feature engineering: 
+
+categorical variables need to converted to numerical. for that we can use
+label encoding(done alphabetically),one hot encoding/creating dummies(
+create extra features/variables to encode,
+it creates boolean columns for each categorical value)
+
+feature reduction/selection-take only important features for modelling.one way is 
+by correlation matrix(most used),forward selection,missing value ratio
+
+feature extraction-generating new features from given feature.
+like extracting oil from groundnut
+new features carry essence of given features
+done by
+pca,lda algorithms etc
+
+70:30 ratio for training:testing splitting
+actual-predicted=error
+
+feature scaling:
+standardization(0 mean and unit SD by z transformation),value btw -1 to 1,
+normalization for uniformity .otherwise it badly affects models.
+one column may be small like marks and other very high like salary .this is highly scaled.
+ so make uniformity btw two.
+one column may be given weightage because of high value without feature scaling
+normalization or min max normalization:feature-min/(max-min). 
+it reduces value to btw 0-1
+
+Semi supervised learning  is where u provide labels to only some and rest will be filled automatically.
+deep learning-subset of machine learning where algorithms works on neuron and huge data is required
+reinforcement learning -ex:self driving cars
+
+sql if
+dataframe update using numpy
+drawback of iloc loc
+case statement sql
+pruning in dt
+pruning is not done in rf
+business question
+header in readcsv
+gmail list
+ebsemble learning diff
+
+
+
+
